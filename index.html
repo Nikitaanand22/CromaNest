@@ -2,62 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Colorful Coke Bottles</title>
-  <link rel="stylesheet" href="style.css"/>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>colour changer object</title>
+  <link rel="stylesheet" href="style.css" />    
 </head>
 
 <body>
-  <header>
-    <h1>Colorful Coke Bottles</h1>
-    <p>Click the color-change button to change each bottle color.</p>
-  </header>
+  <div class="object" id="object"></div>
 
-  <main class="bottles">
-    <section class="bottle-card" style="--bottle-color: #e91325;">
-      <div class="bottle">
-        <div class="bottle-label">COKE</div>
-      </div>
-
-      <h2 class="bottle-name">Classic Red</h2>
-      <p class="bottle-price">₹40</p>
-      <button class="change-color-btn">🎨 Change Color</button>
-    </section>
-
-    <section class="bottle-card" style="--bottle-color: #124690;">
-      <div class="bottle">
-        <div class="bottle-label">COKE</div>
-      </div>
-      <h2 class="bottle-name">Cool Blue</h2>
-      <p class="bottle-price">₹40</p>
-      <button class="change-color-btn">🎨 Change Color</button>
-    </section>
-
-    <section class="bottle-card" style="--bottle-color: #0b612c;">
-      <div class="bottle">
-        <div class="bottle-label">COKE</div>
-      </div>
-      <h2 class="bottle-name">Fresh Green</h2>
-      <p class="bottle-price">₹40</p>
-      <button class="change-color-btn">🎨 Change Color</button>
-    </section>
-
-    <section class="bottle-card" style="--bottle-color: #ffb703;">
-      <div class="bottle">
-        <div class="bottle-label">COKE</div>
-      </div>
-      <h2 class="bottle-name">Sunny Yellow</h2>
-      <p class="bottle-price">₹40</p>
-      <button class="change-color-btn">🎨 Change Color</button>
-    </section>
-  </main>
-
-  <footer>
-    Made with HTML, CSS &amp; JavaScript
-  </footer>
-
-<script src="script.js" defer></script>
-
+  <div class="buttons">
+    <button class="color-btn red" data-color="#b81717" aria-label="Red"></button>
+    <button class="color-btn orange" data-color="#f97316" aria-label="Orange"></button>
+    <button class="color-btn yellow" data-color="#e4b732" aria-label="Yellow"></button>
+    <button class="color-btn green" data-color="#0d8d3c" aria-label="Green"></button>
+    <button class="color-btn blue" data-color="#0f4cae" aria-label="Blue"></button>
+    <button class="color-btn purple" data-color="#58109c" aria-label="Purple"></button>
+  </div>
 </body>
+<footer>
+  <p>&copy;18th nov 2026 Colour Changer.BY Nikita Anand</p>
+</footer>
+<script src="script.js"></script>
 </html>
