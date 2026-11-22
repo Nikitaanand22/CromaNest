@@ -1,4 +1,4 @@
-    const object = document.getElementById("object");
+const object = document.getElementById("object");
     const buttons = document.querySelectorAll(".color-btn");
 
     buttons.forEach(button => {
